@@ -1,0 +1,31 @@
+* {
+    font-family: 'Comfortaa';
+    text-decoration: none;
+}
+.navbar {
+    background: white; font-family: 'comfortaa'; padding-right: 15px;padding-left: 15px;
+}
+.navdiv {
+    display : flex; align-items: center; justify-content: space-between;
+}
+/* logo cinema */
+.logo a{
+    font-size: 20px; font-weight: 600;color: rgb(0, 0, 0);
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: rgb(0, 0, 0); font-size: 17px; font-weight: bold; margin-right: 25px ;
+}
+/* Search bar  */
+.search-bar {
+    background-color : #FFCCFD;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-image: url(Images/Vector.png);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+}
