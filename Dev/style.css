@@ -1,31 +1,84 @@
 * {
-    font-family: 'Comfortaa';
-    text-decoration: none;
+  font-family: "Comfortaa";
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 .navbar {
-    background: white; font-family: 'comfortaa'; padding-right: 15px;padding-left: 15px;
+  background: white;
+  font-family: "comfortaa";
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .navdiv {
-    display : flex; align-items: center; justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 /* logo cinema */
-.logo a{
-    font-size: 20px; font-weight: 600;color: rgb(0, 0, 0);
+.logo a {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
 }
-li{
-    list-style: none; display: inline-block;
+li {
+  list-style: none;
+  display: inline-block;
 }
-li a{
-    color: rgb(0, 0, 0); font-size: 17px; font-weight: bold; margin-right: 25px ;
+li a {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 25px;
 }
 /* Search bar  */
 .search-bar {
-    background-color : #FFCCFD;
-    padding: 5px 10px;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    background-image: url(Images/Vector.png);
-    background-repeat: no-repeat;
-    background-position-x: 95%;
-    background-position-y: 50%;
+  background-color: #ffccfd;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-image: url(Images/Vector.png);
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+}
+/* backgound-head */
+.container .herobg {
+  height: 600px;
+  width: 100%;
+  background: linear-gradient(145deg, #ca26ff 7%, #f4cac0 85%, #fff3b0 100%);
+  border-radius: 15px;
+  border-bottom-right-radius: 200px;
+  display: flex;
+}
+
+.big-title {
+  font-size: 40px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.herobg-text-info {
+  padding: 100px;
+}
+.startnow {
+  width: 100%;
+  text-align: right;
+}
+.startnow button {
+  background: black;
+  color: #ffccfd;
+  padding: 13px 47px;
+  border-radius: 30px;
+}
+
+.sub-title {
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 7px;
+}
+.herobg-image img {
+    width: 500px;
+    margin-top: 32px;
 }
