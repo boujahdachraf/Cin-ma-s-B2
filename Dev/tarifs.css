@@ -115,3 +115,89 @@ li a {
 .tarifs_item.offer {
   font-size: 18px;
 }
+/* cinepass tarifs */
+.subtitle2 {
+  margin-top: 46px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle2 .holder2 {
+  width: 38%;
+  background: #330031;
+  border-radius: 15px;
+  color: white;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.tarifs2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.tarifs2 .holder2 {
+  width: 45%;
+  border-radius: 71px;
+  /* background: url(./Images/tarif1.png) no-repeat; */
+  background: linear-gradient(to bottom, #ffffee, #e082ff);
+
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  padding: 50px 41px;
+  border: 5px solid #eee;
+}
+
+.tarifs_item2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.tarifs_item.offer2 {
+  font-size: 18px;
+}
+
+.holder2 {
+  text-align: center;
+}
+
+.holder2 span {
+  margin-left: 20px;
+}
+
+.line-pass-cinema {
+  border-bottom: 2px solid #000;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.deux-pass-prix{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* réservez enligne */
+.enline-button {
+color: black;
+font-size: 19px;
+border-radius: 30px;
+display: block;
+margin: 0 auto;
+padding: 10px 45px;
+background-color: #FFCCFD;
+margin-top: 30px;
+}
+.paiment {
+text-align: center;
+margin: 0 auto;
+margin-top: 40px;
+}
