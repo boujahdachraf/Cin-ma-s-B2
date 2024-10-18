@@ -124,12 +124,13 @@ li a {
     border:1px solid #000;
     border-radius: 50%;
     padding: 5px 10px;
+    margin-right: 5px;
 }
 
 /* Footer */
 footer {
     background: #330031;
-    margin-top: 80px;
+    margin-top: 20px;
     padding-bottom: 20px;
   }
   
